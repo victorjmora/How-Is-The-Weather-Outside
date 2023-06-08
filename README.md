@@ -39,3 +39,6 @@ To use the application, simply enter a city name into the search bar and click t
 If you wish to view the weather for a city that you have previously searched for, simply click on the city name in the search history. The application will display the current weather conditions and the weather forecast for the next five days.
 License
 This application is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+![image](https://github.com/victorjmora/How-Is-The-Weather-Outside/assets/124754739/66eed524-8b87-4a02-a581-3f36caa53b6d)
+
