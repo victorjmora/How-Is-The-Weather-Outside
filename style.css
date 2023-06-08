@@ -1,15 +1,104 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 10px;
 }
 
-.container {
-    width: 100%;
-    text-align: center;
-    margin: 10px auto;
+hr {
+    width: 80%;
+}
+
+header {
+    text-align: right;
+    background-color: blueviolet;
+    color: blanchedalmond;
+}
+
+h1 {
+    margin: 0px;
+}
+body {
+    margin: 0px;
+}
+
+#headerEl {
+    margin-right: 20px;
+}
+
+history ul {
     padding: 10px;
-    color: white;
-    background-color: navy;
 }
 
+history ul li{
+    list-style-type: none;
+}
+
+focused {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    flex-wrap: wrap;
+}
+/* page layout */
+areaLeft {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+areaRight {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+section{
+    display: flex;
+}
+/* 5 day forecast cards */
+day0 {
+    display: flex;
+    flex-direction: column;
+}
+day1 {
+    display: flex;
+    flex-direction: column;
+}
+day2 {
+    display: flex;
+    flex-direction: column;
+}
+day3 {
+    display: flex;
+    flex-direction: column;
+}
+day4 {
+    display: flex;
+    flex-direction: column;
+}
+
+fiveDays {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+#fiveDays-Title {
+    margin-top: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+#historyID ul {
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+}
