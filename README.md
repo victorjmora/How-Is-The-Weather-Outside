@@ -1,14 +1,15 @@
-#How-Is-The-Weather-Outside
+# How-Is-The-Weather-Outside
 High-Pressure-Ventures
 The weather dashboard is a dynamic web application that displays current and future weather conditions for multiple cities. Users can search for a city and view its weather information, including temperature, humidity, wind speed, and a 5-day forecast. The application uses the 5 Day Weather Forecast API and stores persistent data with localStorage.
 
 # Links
 Live Site: 
-User Story
+# User Story:
 AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
-Acceptance Criteria
+
+# Acceptance Criteria:
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
