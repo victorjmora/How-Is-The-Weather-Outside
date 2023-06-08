@@ -9,7 +9,7 @@ var mainDateQuery = document.getElementById('dateMainQuery');
 
 // Event listener for search button click
 searchBtnEl.addEventListener('click', async function () {
-    var cityName = searchVal.value;
+    var cityName = searchVal.value; 
     var { name, lat, lon } = await fetchGeoData(cityName);
     mainQueryName.textContent = name;
     var weatherInfo = await fetchWeatherInfo(lat, lon);
